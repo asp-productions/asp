@@ -1,0 +1,200 @@
+{{ define "main" }}
+  {{ $mainSections := .Site.Params.mainSections | default (slice "post") }}
+  {{/* Create a variable with that section to use in multiple places. */}}
+  {{ $section := where .Site.RegularPages "Section" "in" $mainSections }}
+  {{ $section_count := len $section }}
+  {{ if ge $section_count 1 }}
+    {{/* Derive the section name  */}}
+    {{ $section_name := index (.Site.Params.mainSections) 0 }}
+
+  <!-- Updates section -->
+  <section class="pa3 pa5-ns bt b--black-10 black-70 bg-white">
+
+      <div class="cf">
+
+        <!-- Updates widget starts -->
+        <article class="fl w-100 w-50-ns pr0 pr4-ns">
+
+          <div class="w-100 w-100-ns pr3-ns pa4-ns">
+
+            <h1 class="f3 mt0 lh-title">Updates</h1>
+
+            <article class="dt w-100 bb b--black-05 pb2 mt2" href="#0">
+              <div class="dtc w3 w4-ns">
+                <time>Date here</time>
+              </div>
+              <div class="dtc v-mid pl3">
+                <h1 class="f6 f5-ns fw6 lh-title black mv0">Article title here </h1>
+                <h2 class="f6 fw4 mt0 mb0 black-60">tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                no sea takimata sanctus est Lorem ipsum dolor sit</h2>
+              </div>
+            </article>
+
+            <article class="dt w-100 bb b--black-05 pb2 mt2" href="#0">
+              <div class="dtc w3 w4-ns">
+                <time>Date here</time>
+              </div>
+              <div class="dtc v-mid pl3">
+                <h1 class="f6 f5-ns fw6 lh-title black mv0">Article title here </h1>
+                <h2 class="f6 fw4 mt0 mb0 black-60">tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                no sea takimata sanctus est Lorem ipsum dolor sit</h2>
+              </div>
+            </article>
+
+            <article class="dt w-100 bb b--black-05 pb2 mt2" href="#0">
+              <div class="dtc w3 w4-ns">
+                <time>Date here</time>
+              </div>
+              <div class="dtc v-mid pl3">
+                <h1 class="f6 f5-ns fw6 lh-title black mv0">Article title here </h1>
+                <h2 class="f6 fw4 mt0 mb0 black-60">tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                no sea takimata sanctus est Lorem ipsum dolor sit</h2>
+              </div>
+            </article>
+
+            <article class="dt w-100 bb b--black-05 pb2 mt2" href="#0">
+              <div class="dtc w3 w4-ns">
+                <time>Date here</time>
+              </div>
+              <div class="dtc v-mid pl3">
+                <h1 class="f6 f5-ns fw6 lh-title black mv0">Article title here </h1>
+                <h2 class="f6 fw4 mt0 mb0 black-60">tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+                vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+                no sea takimata sanctus est Lorem ipsum dolor sit</h2>
+              </div>
+            </article>
+
+          </div>
+        </article>
+        <!-- END Updates widget -->
+
+        <article class="fl w-100 w-50-ns">
+          <div class="aspect-ratio aspect-ratio--16x9">
+            <iframe src="https://www.youtube.com/embed/fIDlmBmhPFY" class="aspect-ratio--object" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+
+        <article class="fl w-100 pa3 bg-near-white mt3">
+          <h2 class="f4 mt0 lh-title">About a little about us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+            tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At
+            vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+            no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          </p>
+          <a href="" class="fr underline grow dib black">Read more</a>
+        </article>
+
+        </article>
+
+      </dev>
+
+  </section>
+  <!-- END updates section -->
+
+  <!-- Writer callout section -->
+  <section class="pa3 pa5-ns bt b--black-10 black-70 bg-white">
+
+    <div class="cf">
+
+      <article class="fl w-100 w-50-ns pr0 pr2-ns">
+        <div class="dtc v-mid flex justify-center">
+          <img src="http://tachyons.io/img/space.jpg" class="db br-100 h5 w5" alt="Photo of outer space">
+        </div>
+      </article>
+
+      <article class="fl w-100 w-50-ns measure-wide v-mid">
+        <h1 class="flex-none">Our search for writers</h1>
+        <p>
+          If you feel passionately a story should be told, we’d like to have a read. We don’t want more than an A4 setting out the idea and promise to get back to you promptly. We know writers are a precious resource. This is a rolling process for us, so send those ideas along.
+
+          Please send submissions to –
+          Email Address:  admin@actorshop.biz
+          Subject Line : Writing Submission
+
+          Please include a bio and any relevant information you’d like us to consider.
+        </p>
+      </article>
+
+    </div>
+
+  </section>
+  <!-- END Writer callout section -->
+
+  <!-- Team section -->
+  <section class="pa3 pa5-ns bt b--black-10 black-70 bg-white">
+
+    <div class="cf">
+
+    <h1 class="tc">Team</h1>
+
+    <article class="fl w-100 w-50-m w-25-ns pa2-ns">
+      <div class="aspect-ratio aspect-ratio--1x1">
+        <img style="background-image:url(http://mrmrs.github.io/images/0006.jpg);"
+        class="db bg-center cover aspect-ratio--object" />
+      </div>
+      <a href="#0" class="ph2 ph0-ns pb3 link db">
+        <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+        <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+      </a>
+      <a href="" class="fl underline grow dib black">Read more</a>
+    </article>
+
+    <article class="fl w-100 w-50-m w-25-ns pa2-ns">
+      <div class="aspect-ratio aspect-ratio--1x1">
+        <img style="background-image:url(http://mrmrs.github.io/images/0006.jpg);"
+        class="db bg-center cover aspect-ratio--object" />
+      </div>
+      <a href="#0" class="ph2 ph0-ns pb3 link db">
+        <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+        <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+      </a>
+      <a href="" class="fl underline grow dib black">Read more</a>
+    </article>
+
+    <article class="fl w-100 w-50-m w-25-ns pa2-ns">
+      <div class="aspect-ratio aspect-ratio--1x1">
+        <img style="background-image:url(http://mrmrs.github.io/images/0006.jpg);"
+        class="db bg-center cover aspect-ratio--object" />
+      </div>
+      <a href="#0" class="ph2 ph0-ns pb3 link db">
+        <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+        <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+      </a>
+    </article>
+
+    <article class="fl w-100 w-50-m w-25-ns pa2-ns">
+      <div class="aspect-ratio aspect-ratio--1x1">
+        <img style="background-image:url(http://mrmrs.github.io/images/0006.jpg);"
+        class="db bg-center cover aspect-ratio--object" />
+      </div>
+      <a href="#0" class="ph2 ph0-ns pb3 link db">
+        <h3 class="f5 f4-ns mb0 black-90">Title of piece</h3>
+        <h3 class="f6 f5 fw4 mt2 black-60">Subtitle of piece</h3>
+      </a>
+    </article>
+
+  </div>
+
+  </section>
+  <!-- END Team section -->
+
+  <!-- Contact section -->
+  <section class="pa3 pa5-ns b--black-10 black-70">
+
+    <div class="cf">
+
+      <h1 class="tc">Contact</h1>
+
+      {{ partial "contact-form.html" . }}
+
+      <article class="fl w-100 w-40-ns">Text</article>
+
+    </div>
+
+  </section>
+  <!-- END contact section -->
+  {{ end }}
+{{ end }}
