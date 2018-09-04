@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Updates on ASP Productions</title>
-    <link>http://example.org/updates/</link>
+    <link>www.ba-dev-s1.com/updates/</link>
     <description>Recent content in Updates on ASP Productions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Sep 2018 22:05:48 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/updates/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="www.ba-dev-s1.com/updates/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Update Four</title>
-      <link>http://example.org/updates/update-four/</link>
+      <link>www.ba-dev-s1.com/updates/update-four/</link>
       <pubDate>Sat, 01 Sep 2018 22:05:48 +0000</pubDate>
       
-      <guid>http://example.org/updates/update-four/</guid>
+      <guid>www.ba-dev-s1.com/updates/update-four/</guid>
       <description>Lorem ipsum dolor sit amet, no qui graecis mediocrem signiferumque, te agam splendide definitionem sit. Cum ullum accusata principes ei, quo iusto postea oporteat an.</description>
     </item>
     
     <item>
       <title>Update Three</title>
-      <link>http://example.org/updates/update-three/</link>
+      <link>www.ba-dev-s1.com/updates/update-three/</link>
       <pubDate>Sat, 01 Sep 2018 21:57:15 +0000</pubDate>
       
-      <guid>http://example.org/updates/update-three/</guid>
+      <guid>www.ba-dev-s1.com/updates/update-three/</guid>
       <description>rehendunt in sea, sit alterum propriae an, vel an pericula laboramus. Has cu eius probo error, eu nam duis essent temporibus, adhuc primis noster ius id.</description>
     </item>
     
     <item>
       <title>Update Two</title>
-      <link>http://example.org/updates/update-two/</link>
+      <link>www.ba-dev-s1.com/updates/update-two/</link>
       <pubDate>Sun, 22 Jul 2018 20:08:00 +0000</pubDate>
       
-      <guid>http://example.org/updates/update-two/</guid>
+      <guid>www.ba-dev-s1.com/updates/update-two/</guid>
       <description>rehendunt in sea, sit alterum propriae an, vel an pericula laboramus. Has cu eius probo error, eu nam duis essent temporibus, adhuc primis noster ius id.</description>
     </item>
     
     <item>
       <title>Update One</title>
-      <link>http://example.org/updates/update-one/</link>
+      <link>www.ba-dev-s1.com/updates/update-one/</link>
       <pubDate>Sun, 22 Jul 2018 20:07:56 +0000</pubDate>
       
-      <guid>http://example.org/updates/update-one/</guid>
+      <guid>www.ba-dev-s1.com/updates/update-one/</guid>
       <description>rehendunt in sea, sit alterum propriae an, vel an pericula laboramus. Has cu eius probo error, eu nam duis essent temporibus, adhuc primis noster ius id.</description>
     </item>
     

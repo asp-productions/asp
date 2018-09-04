@@ -2,66 +2,113 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ASP Productions</title>
-    <link>http://example.org/</link>
+    <link>www.ba-dev-s1.com/</link>
     <description>Recent content on ASP Productions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Sep 2018 22:05:48 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Sep 2018 18:23:34 +0100</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="www.ba-dev-s1.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>privacy</title>
-      <link>http://example.org/privacy/</link>
+      <link>www.ba-dev-s1.com/privacy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/privacy/</guid>
+      <guid>www.ba-dev-s1.com/privacy/</guid>
       <description>This is the privacy page! :)/</description>
     </item>
     
     <item>
       <title>terms</title>
-      <link>http://example.org/terms/</link>
+      <link>www.ba-dev-s1.com/terms/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/terms/</guid>
+      <guid>www.ba-dev-s1.com/terms/</guid>
       <description>This is the terms page! :)/</description>
     </item>
     
     <item>
+      <title>Patricia</title>
+      <link>www.ba-dev-s1.com/people/patricia/</link>
+      <pubDate>Sun, 02 Sep 2018 18:23:34 +0100</pubDate>
+      
+      <guid>www.ba-dev-s1.com/people/patricia/</guid>
+      <description>Patricia Elcock Director of Programming Client Relationship Manager
+Patricia Elcock has worked with Actorshop for 15 years. She began as an actor/facilitator before moving into the company’s management team.</description>
+    </item>
+    
+    <item>
+      <title>Don</title>
+      <link>www.ba-dev-s1.com/people/don/</link>
+      <pubDate>Sun, 02 Sep 2018 18:23:07 +0100</pubDate>
+      
+      <guid>www.ba-dev-s1.com/people/don/</guid>
+      <description>Warrington is known for playing Philip Smith in Rising Damp, from 1974 to 1978, alongside Leonard Rossiter, Richard Beckinsale, and Frances de la Tour.</description>
+    </item>
+    
+    <item>
+      <title>Derek</title>
+      <link>www.ba-dev-s1.com/people/derek/</link>
+      <pubDate>Sun, 02 Sep 2018 18:11:12 +0100</pubDate>
+      
+      <guid>www.ba-dev-s1.com/people/derek/</guid>
+      <description>Derek Brown CEO | Actorshop Ltd. Client Relationship Manager Co-Director | Actorshop Productions Follow Derek on Google+
+Derek founded Actorshop Ltd.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>www.ba-dev-s1.com/posts/about/</link>
+      <pubDate>Sun, 02 Sep 2018 17:40:37 +0100</pubDate>
+      
+      <guid>www.ba-dev-s1.com/posts/about/</guid>
+      <description>Lorem ipsum dolor sit amet, no qui graecis mediocrem signiferumque, te agam splendide definitionem sit. Cum ullum accusata principes ei, quo iusto postea oporteat an.</description>
+    </item>
+    
+    <item>
+      <title>Our Search for Writers</title>
+      <link>www.ba-dev-s1.com/posts/our-search-for-writers/</link>
+      <pubDate>Sun, 02 Sep 2018 17:36:14 +0100</pubDate>
+      
+      <guid>www.ba-dev-s1.com/posts/our-search-for-writers/</guid>
+      <description>If you feel passionately a story should be told, we’d like to have a read. We don’t want more than an A4 setting out the idea and promise to get back to you promptly.</description>
+    </item>
+    
+    <item>
       <title>Update Four</title>
-      <link>http://example.org/updates/update-four/</link>
+      <link>www.ba-dev-s1.com/updates/update-four/</link>
       <pubDate>Sat, 01 Sep 2018 22:05:48 +0000</pubDate>
       
-      <guid>http://example.org/updates/update-four/</guid>
+      <guid>www.ba-dev-s1.com/updates/update-four/</guid>
       <description>Lorem ipsum dolor sit amet, no qui graecis mediocrem signiferumque, te agam splendide definitionem sit. Cum ullum accusata principes ei, quo iusto postea oporteat an.</description>
     </item>
     
     <item>
       <title>Update Three</title>
-      <link>http://example.org/updates/update-three/</link>
+      <link>www.ba-dev-s1.com/updates/update-three/</link>
       <pubDate>Sat, 01 Sep 2018 21:57:15 +0000</pubDate>
       
-      <guid>http://example.org/updates/update-three/</guid>
+      <guid>www.ba-dev-s1.com/updates/update-three/</guid>
       <description>rehendunt in sea, sit alterum propriae an, vel an pericula laboramus. Has cu eius probo error, eu nam duis essent temporibus, adhuc primis noster ius id.</description>
     </item>
     
     <item>
       <title>Update Two</title>
-      <link>http://example.org/updates/update-two/</link>
+      <link>www.ba-dev-s1.com/updates/update-two/</link>
       <pubDate>Sun, 22 Jul 2018 20:08:00 +0000</pubDate>
       
-      <guid>http://example.org/updates/update-two/</guid>
+      <guid>www.ba-dev-s1.com/updates/update-two/</guid>
       <description>rehendunt in sea, sit alterum propriae an, vel an pericula laboramus. Has cu eius probo error, eu nam duis essent temporibus, adhuc primis noster ius id.</description>
     </item>
     
     <item>
       <title>Update One</title>
-      <link>http://example.org/updates/update-one/</link>
+      <link>www.ba-dev-s1.com/updates/update-one/</link>
       <pubDate>Sun, 22 Jul 2018 20:07:56 +0000</pubDate>
       
-      <guid>http://example.org/updates/update-one/</guid>
+      <guid>www.ba-dev-s1.com/updates/update-one/</guid>
       <description>rehendunt in sea, sit alterum propriae an, vel an pericula laboramus. Has cu eius probo error, eu nam duis essent temporibus, adhuc primis noster ius id.</description>
     </item>
     

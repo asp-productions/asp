@@ -2,13 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ASP Productions</title>
-    <link>http://example.org/posts/</link>
+    <link>www.ba-dev-s1.com/posts/</link>
     <description>Recent content on ASP Productions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 02 Sep 2018 17:40:37 +0100</lastBuildDate>
     
-	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="www.ba-dev-s1.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>About</title>
+      <link>www.ba-dev-s1.com/posts/about/</link>
+      <pubDate>Sun, 02 Sep 2018 17:40:37 +0100</pubDate>
+      
+      <guid>www.ba-dev-s1.com/posts/about/</guid>
+      <description>Lorem ipsum dolor sit amet, no qui graecis mediocrem signiferumque, te agam splendide definitionem sit. Cum ullum accusata principes ei, quo iusto postea oporteat an.</description>
+    </item>
+    
+    <item>
+      <title>Our Search for Writers</title>
+      <link>www.ba-dev-s1.com/posts/our-search-for-writers/</link>
+      <pubDate>Sun, 02 Sep 2018 17:36:14 +0100</pubDate>
+      
+      <guid>www.ba-dev-s1.com/posts/our-search-for-writers/</guid>
+      <description>If you feel passionately a story should be told, we’d like to have a read. We don’t want more than an A4 setting out the idea and promise to get back to you promptly.</description>
+    </item>
     
   </channel>
 </rss>
