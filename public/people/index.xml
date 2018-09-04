@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ASP Productions</title>
-    <link>www.ba-dev-s1.com/people/</link>
+    <link>/people/</link>
     <description>Recent content on ASP Productions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 02 Sep 2018 18:23:34 +0100</lastBuildDate>
     
-	<atom:link href="www.ba-dev-s1.com/people/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/people/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Patricia</title>
-      <link>www.ba-dev-s1.com/people/patricia/</link>
+      <link>/people/patricia/</link>
       <pubDate>Sun, 02 Sep 2018 18:23:34 +0100</pubDate>
       
-      <guid>www.ba-dev-s1.com/people/patricia/</guid>
+      <guid>/people/patricia/</guid>
       <description>Patricia Elcock Director of Programming Client Relationship Manager
 Patricia Elcock has worked with Actorshop for 15 years. She began as an actor/facilitator before moving into the company’s management team.</description>
     </item>
     
     <item>
       <title>Don</title>
-      <link>www.ba-dev-s1.com/people/don/</link>
+      <link>/people/don/</link>
       <pubDate>Sun, 02 Sep 2018 18:23:07 +0100</pubDate>
       
-      <guid>www.ba-dev-s1.com/people/don/</guid>
+      <guid>/people/don/</guid>
       <description>Warrington is known for playing Philip Smith in Rising Damp, from 1974 to 1978, alongside Leonard Rossiter, Richard Beckinsale, and Frances de la Tour.</description>
     </item>
     
     <item>
       <title>Derek</title>
-      <link>www.ba-dev-s1.com/people/derek/</link>
+      <link>/people/derek/</link>
       <pubDate>Sun, 02 Sep 2018 18:11:12 +0100</pubDate>
       
-      <guid>www.ba-dev-s1.com/people/derek/</guid>
+      <guid>/people/derek/</guid>
       <description>Derek Brown CEO | Actorshop Ltd. Client Relationship Manager Co-Director | Actorshop Productions Follow Derek on Google+
 Derek founded Actorshop Ltd.</description>
     </item>
