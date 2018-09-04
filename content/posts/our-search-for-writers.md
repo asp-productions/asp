@@ -1,10 +1,9 @@
 ---
-title: "Our Search for Writers"
-date: 2018-09-02T17:36:14+01:00
-draft: true
-type: "our-search-for-writers"
----
+title: Our Search for Writers
+date: 2018-09-02 16:36:14 +0000
+type: our-search-for-writers
 
+---
 If you feel passionately a story should be told, we’d like to have a read. We don’t want more than an A4 setting out the idea and promise to get back to you promptly. We know writers are a precious resource. This is a rolling process for us, so send those ideas along.
 
 Please send submissions to –
