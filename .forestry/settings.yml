@@ -1,17 +1,17 @@
 ---
 new_page_extension: md
 auto_deploy: true
-admin_path: 
-webhook_url: 
+admin_path:
+webhook_url:
 sections:
 - type: directory
   path: content
-  label: Pages
+  label: posts
   create: all
   match: "*"
 - type: directory
-  path: content/team
-  label: Team
+  path: content/people
+  label: People
   create: all
   match: "**/*"
 - type: directory

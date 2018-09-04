@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Default Theme for Hugo Sites",
   "main": "index.js",
-  "repository": "",
   "author": "budparr",
   "license": "MIT",
   "scripts": {
