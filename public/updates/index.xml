@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ASP Productions</title>
-    <link>http://example.org/</link>
-    <description>Recent content on ASP Productions</description>
+    <title>Updates on ASP Productions</title>
+    <link>http://example.org/updates/</link>
+    <description>Recent content in Updates on ASP Productions</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Sep 2018 22:05:48 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/updates/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>privacy</title>
-      <link>http://example.org/privacy/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/privacy/</guid>
-      <description>This is the privacy page! :)/</description>
-    </item>
-    
-    <item>
-      <title>terms</title>
-      <link>http://example.org/terms/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://example.org/terms/</guid>
-      <description>This is the terms page! :)/</description>
-    </item>
     
     <item>
       <title>Update Four</title>
