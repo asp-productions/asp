@@ -1,31 +1,27 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "ASP Productions"
-theme = "asp"
-
-MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
-SectionPagesMenu = "main"
+MetaDataFormat = "yaml"
 Paginate = 10
-googleAnalytics = ""
+SectionPagesMenu = "main"
+baseURL = "http://example.org/"
 enableRobotsTXT = true
+googleAnalytics = ""
+languageCode = "en-us"
 summarylength = 20
-
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
-
+theme = "asp"
+title = "ASP Productions"
 [params]
-  favicon = ""
-  description = "The last theme you'll ever need. Maybe."
-  facebook = ""
-  twitter = "https://twitter.com/"
-  instagram = ""
-  youtube = ""
-  github = ""
-  linkedin = ""
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-black"
-  featured_image = "http://mrmrs.github.io/photos/u/011.jpg"
-  recent_posts_number = 4
+background_color_class = "bg-black"
+description = "ASP Productions"
+facebook = ""
+favicon = ""
+featured_image = "http://mrmrs.github.io/photos/u/011.jpg"
+github = ""
+instagram = ""
+linkedin = ""
+recent_posts_number = 4
+twitter = "https://twitter.com/"
+youtube = ""
+[sitemap]
+changefreq = "monthly"
+filename = "sitemap.xml"
+priority = 0.5
