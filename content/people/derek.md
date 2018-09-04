@@ -2,7 +2,6 @@
 title: "Derek"
 date: 2018-09-02T18:11:12+01:00
 type: "people"
-draft: true
 ---
 
 Derek Brown

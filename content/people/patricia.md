@@ -2,7 +2,6 @@
 title: "Patricia"
 date: 2018-09-02T18:23:34+01:00
 type: "people"
-draft: true
 ---
 
 Patricia Elcock
