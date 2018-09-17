@@ -1,5 +1,5 @@
 ---
-label: Post
+label: Update
 hide_body: false
 is_partial: false
 fields:
@@ -8,5 +8,14 @@ fields:
   label: Post
   name: post
   description: Post
+- type: textarea
+  default: Text area
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  name: textarea
+  description: Text area
+  label: Textarea
 pages:
 - content/updates/update-five.md
