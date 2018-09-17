@@ -17,5 +17,12 @@ fields:
   name: textarea
   description: Text area
   label: Textarea
+- type: datetime
+  name: date_field
+  label: Date field
+  description: Add date
+  config:
+    date_format: MM/DD/YYYY
+    required: true
 pages:
 - content/updates/update-five.md
