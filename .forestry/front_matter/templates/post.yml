@@ -3,15 +3,6 @@ label: Update
 hide_body: false
 is_partial: false
 fields:
-- type: textarea
-  default: Text area
-  config:
-    wysiwyg: true
-    schema:
-      format: markdown
-  name: textarea
-  description: Text area
-  label: Textarea
 - type: datetime
   name: date_field
   label: Date field
