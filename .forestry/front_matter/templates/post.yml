@@ -26,4 +26,5 @@ fields:
   config:
     required: true
 pages:
+- content/updates/update-six.md
 - content/updates/update-five.md
