@@ -8,3 +8,5 @@ fields:
   label: Post
   name: post
   description: Post
+pages:
+- content/updates/update-five.md
