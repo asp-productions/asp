@@ -1,0 +1,11 @@
+---
+label: Update
+hide_body: false
+is_partial: true
+display_field: update
+fields:
+- type: text
+  name: update
+  label: Update
+  description: Write an update here
+  hidden: false
