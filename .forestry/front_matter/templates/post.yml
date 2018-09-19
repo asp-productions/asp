@@ -1,0 +1,21 @@
+---
+label: Update
+hide_body: false
+is_partial: false
+fields:
+- type: datetime
+  name: date_field
+  label: Date field
+  description: Add date
+  config:
+    date_format: MM/DD/YYYY
+    required: true
+- type: text
+  name: title
+  label: Title
+  description: Title
+  config:
+    required: true
+pages:
+- content/updates/update-six.md
+- content/updates/update-five.md
