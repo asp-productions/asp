@@ -1,6 +1,8 @@
 ---
 
-headless: true
+page: "people"
+title: "people"
+description: "people directory"
 
 ---
 

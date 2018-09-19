@@ -1,6 +1,8 @@
 ---
 
-headless: true
+page: "posts"
+title: "posts"
+description: "generic posts"
 
 ---
 
