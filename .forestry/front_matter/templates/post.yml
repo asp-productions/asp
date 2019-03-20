@@ -1,7 +1,6 @@
 ---
 label: Update
 hide_body: false
-is_partial: false
 fields:
 - type: datetime
   name: date_field
