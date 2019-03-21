@@ -1,9 +1,9 @@
 ---
-title: "Don"
-date: 2018-09-02T18:23:07+01:00
-type: "people"
----
+title: Don Warrington
+date: 2018-09-02 17:23:07 +0000
+people_feature_image: "/uploads/web-D.Warrington.jpg"
 
+---
 Warrington is known for playing Philip Smith in Rising Damp, from 1974 to 1978, alongside Leonard Rossiter, Richard Beckinsale, and Frances de la Tour. Warrington also appeared as series regular in the crime drama C.A.T.S. Eyes, as government contact Nigel Beaumont (1985–1987); in Impact Earth (2007) playing General Harris; and in New Street Law as Judge Ken Winyard.
 
 In 1993 Warrington played television reporter Graham Gaunt in To Play The King, the second part of the BBC's House of Cards trilogy.
