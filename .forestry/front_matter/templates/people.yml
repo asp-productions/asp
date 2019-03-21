@@ -23,4 +23,5 @@ fields:
   name: ''
   label: ''
 pages:
+- content/people/don.md
 - content/people/derek.md
