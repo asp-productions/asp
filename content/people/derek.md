@@ -1,8 +1,9 @@
 ---
-title: "Derek"
-date: 2018-09-02T18:11:12+01:00
-type: "people"
+title: Derek
+date: 2018-09-02 17:11:12 +0000
+
 ---
+![](/uploads/web-D.Brown.jpg)
 
 Derek Brown
 CEO | Actorshop Ltd.
