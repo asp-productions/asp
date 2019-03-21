@@ -1,7 +1,7 @@
 ---
 title: Derek
 date: 2018-09-02 17:11:12 +0000
-people_feature_image: ''
+people_feature_image: "/uploads/web-D.Brown.jpg"
 '':
 - Derek Brown
 
