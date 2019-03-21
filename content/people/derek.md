@@ -1,6 +1,9 @@
 ---
 title: Derek
 date: 2018-09-02 17:11:12 +0000
+people_feature_image: ''
+'':
+- Derek Brown
 
 ---
 Derek Brown CEO | Actorshop Ltd. Client Relationship Manager Co-Director | Actorshop Productions
