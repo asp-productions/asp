@@ -10,7 +10,15 @@ fields:
 - type: file
   name: people_feature_image
   label: feature image
-  description: Add photo
+  description: Portrait photo (Used throughout site)
+- type: textarea
+  name: people_profile
+  label: profile
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+  description: Brief personal title and profile
 - type: tag_list
   name: ''
   label: ''
