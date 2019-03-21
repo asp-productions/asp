@@ -1,6 +1,7 @@
 ---
 label: People
 hide_body: false
+display_field: title
 fields:
 - type: text
   name: title
@@ -8,3 +9,7 @@ fields:
 - type: datetime
   name: date
   label: date
+- type: file
+  name: people_feature_image
+  label: feature image
+  description: Add photo
