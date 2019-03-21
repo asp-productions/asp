@@ -101,8 +101,7 @@
 
     <article class="fl w-100 w-third-l pa5-ns pb3">
       <div class="aspect-ratio aspect-ratio--1x1">
-        <a href="{{ .Permalink}}"><img style="background-image:url(http://mrmrs.github.io/images/0006.jpg);"
-        class="db bg-center cover aspect-ratio--object" /></a>
+        <a href="{{ .Permalink}}"><img src="{{ .Params.people_feature_image | relURL }}" class="db bg-center cover aspect-ratio--object"></a>
       </div>
       <a href="{{ .Permalink}}" class="ph2 ph0-ns pb3 link db"><h3 class="f5 f4-ns mb0 black-90">{{ .Title }}</h3></a>
         <p class="f5 fw4 mt2 black-60">{{ .Summary }}</p>

@@ -8,10 +8,22 @@
         </p>
         <h1 class="f1">
           {{ .Title }}
-          <img src="{{ .Params.people_feature_image | relURL }}">
         </h1>
       </header>
       <div class="nested-copy-line-height lh-copy f4 nested-links nested-img mid-gray">
+
+
+      <div class="mw9 center ph3-ns">
+          <div class="cf ph2-ns">
+            <div class="fl w-100 w-50-ns pa2">
+              <div class="pv4"><img src="{{ .Params.people_feature_image | relURL }}"></div>
+            </div>
+            <div class="fl w-100 w-50-ns pa2">
+              <div class="pv4"><p>{{ .Params.people_profile | markdownify }}</p></div>
+              <p>{{ .Params.tag_list| markdownify }}</p>
+            </div>
+          </div>
+        </div>
         {{ .Content }}
       </div>
     </article>
