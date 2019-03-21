@@ -14,3 +14,5 @@ fields:
 - type: tag_list
   name: ''
   label: ''
+pages:
+- content/people/derek.md
