@@ -12,4 +12,6 @@
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
+# Folder directories we compile outside of the Git Directory
 /content/uploads/*
+src/node_modules
