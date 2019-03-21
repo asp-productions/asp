@@ -23,6 +23,6 @@ fields:
   name: ''
   label: ''
 pages:
+- content/people/derek.md
 - content/people/patricia.md
 - content/people/don.md
-- content/people/derek.md
