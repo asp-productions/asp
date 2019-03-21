@@ -4,8 +4,8 @@ date: 2018-09-02 17:11:12 +0000
 people_feature_image: "/uploads/web-D.Brown.jpg"
 '':
 - Derek Brown
-people_profile: Derek Brown CEO | Actorshop Ltd. Client Relationship Manager Co-Director
-  | Actorshop Productions
+people_profile: "Derek Brown CEO   \nActorshop Ltd. Client Relationship  \nManager
+  Co-Director Actorshop Productions"
 
 ---
 Derek founded Actorshop Ltd. when working as the Drama Advisor for the London Borough of Newham in 1985.  He has been part of the ‘l8r’ production team since its inception.  He won a BAFTA in 2012 as well as being nominated for a BAFTA in 2013.  The ‘l8r series 1 & 2’ and ‘L8R Youngers’ has been running for eight years, and has been voted one of the three most creative children’s programmes by Broadcast Magazine; won the Royal Television Society Education Award; the Basel-Karlsruhe Multimedia Award and three BAFTA’s plus three further BAFTA nominations.
