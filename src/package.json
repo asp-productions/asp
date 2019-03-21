@@ -1,7 +1,7 @@
 {
-  "name": "gohugo-default-styles",
-  "version": "1.0.0",
-  "description": "Default Theme for Hugo Sites",
+  "name": "asp-styles",
+  "version": "1.15.2",
+  "description": "Actorshop package mgt file.",
   "main": "index.js",
   "author": "budparr",
   "license": "MIT",
@@ -28,5 +28,7 @@
     "tachyons": "^4.9.1",
     "webpack": "^2.3.3"
   },
-  "dependencies": {}
+  "dependencies": {
+    "yarn": "^1.13.0"
+  }
 }
