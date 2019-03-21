@@ -11,11 +11,11 @@ title = "ASP Productions"
 
 [params]
 background_color_class = "bg-black"
-description = "ASP Productions"
+description = "Actorshop Productions"
 facebook = ""
 favicon = ""
-featured_image = "static/two-roads-ac-bg.png"
-github = ""
+featured_image = "ac-train-track-bg.jpg"
+github = "https://github.com/asp-productions/asp"
 instagram = ""
 linkedin = ""
 recent_posts_number = 4

@@ -1,0 +1,59 @@
+Arguments: 
+  /usr/local/Cellar/node/11.12.0/bin/node /usr/local/Cellar/yarn/1.15.2/libexec/bin/yarn.js install
+
+PATH: 
+  /usr/local/opt/ruby/bin:/usr/local/opt/openssl/bin:/usr/local/bin:/usr/local/opt/ruby/bin:/usr/local/opt/openssl/bin:/usr/local/bin:/usr/local/opt/ruby/bin:/usr/local/opt/openssl/bin:/usr/local/bin:/usr/local/opt/ruby/bin:/usr/local/opt/openssl/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/adam/scripts:/Users/adam/.composer/vendor/bin:/Users/adam/go/bin:/Users/adam/scripts:/Users/adam/.composer/vendor/bin:/Users/adam/go/bin:/Users/adam/scripts:/Users/adam/.composer/vendor/bin:/Users/adam/go/bin:/Users/adam/scripts:/Users/adam/.composer/vendor/bin:/Users/adam/go/bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  11.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/adam/Dev/asp/src/node_modules/abbrev'
+
+npm manifest: 
+  {
+    "name": "asp-styles",
+    "version": "1.0.0",
+    "description": "Actorshop package mgt file.",
+    "main": "index.js",
+    "author": "budparr",
+    "license": "MIT",
+    "scripts": {
+      "build:production": "rm -rf ../static/dist && webpack -p",
+      "build": "webpack --progress --colors --watch",
+      "start": "npm run build"
+    },
+    "devDependencies": {
+      "assets-webpack-plugin": "^3.5.1",
+      "babel-core": "^6.24.1",
+      "babel-loader": "^7.0.0",
+      "babel-preset-env": "^1.4.0",
+      "css-loader": "^0.28.0",
+      "cssnano": "^3.10.0",
+      "extract-text-webpack-plugin": "^2.1.0",
+      "file-loader": "^0.11.1",
+      "jquery": "^3.2.1",
+      "postcss": "^5.2.16",
+      "postcss-cssnext": "^2.10.0",
+      "postcss-import": "^9.1.0",
+      "postcss-loader": "^1.3.3",
+      "style-loader": "^0.16.1",
+      "tachyons": "^4.9.1",
+      "webpack": "^2.3.3"
+    },
+    "dependencies": {
+      "yarn": "^1.13.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
