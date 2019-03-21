@@ -4,7 +4,7 @@ date: 2018-09-02 17:11:12 +0000
 people_feature_image: "/uploads/web-D.Brown.jpg"
 '':
 - Derek Brown
-people_profile: "Derek Brown CEO   \nActorshop Ltd. Client Relationship  \nManager
+people_profile: "Derek Brown CEO  \nActorshop Ltd. Client Relationship  \nManager
   Co-Director Actorshop Productions"
 
 ---
