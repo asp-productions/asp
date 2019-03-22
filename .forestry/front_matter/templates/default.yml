@@ -24,3 +24,5 @@ fields:
 - type: tag_list
   name: default_tags
   label: Tags
+pages:
+- content/posts/our-search-for-writers.md
