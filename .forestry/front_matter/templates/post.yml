@@ -1,7 +1,14 @@
 ---
-label: Update
+label: Updates
 hide_body: false
+display_field: title
 fields:
+- type: text
+  name: title
+  label: Title
+  description: Title
+  config:
+    required: true
 - type: datetime
   name: date_field
   label: Date field
@@ -9,12 +16,9 @@ fields:
   config:
     date_format: MM/DD/YYYY
     required: true
-- type: text
-  name: title
-  label: Title
-  description: Title
-  config:
-    required: true
+- type: tag_list
+  name: updates_tags
+  label: Tags
 pages:
 - content/updates/update-six.md
 - content/updates/update-five.md
