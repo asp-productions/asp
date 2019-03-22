@@ -24,7 +24,7 @@ sections:
   label: Contact
   create: all
   match: "**/*"
-upload_dir: content/uploads
+upload_dir: uploads
 public_path: " http://ba-dev-s1.com"
 front_matter_path: ''
 use_front_matter_path: false
