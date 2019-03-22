@@ -98,17 +98,12 @@
     {{ $randomPosts := shuffle (where .Pages "Type" "people") }}
 
     {{ range $randomPosts }}
-    $image := $resource.Fill "600x400"
 
     <article class="fl w-100 w-third-l">
       <div class="aspect-ratio--4x3 mr3">
-
-
-        {{ with .Params.people_feature_image }}
-        {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch (strings.TrimPrefix "/uploads/" . ) }}
-        {{ $resized := $imageResource.Fill "200x200" }}
-        <a href="{{ .Permalink}}"><img src="{{ $resized.people_feature_image | relURL }}" class="db bg-center cover aspect-ratio--object"></a>
-        {{ end }}
+      
+        <a href="{{ .Permalink}}"><img src="{{ .Params.people_feature_image | relURL }}" class="db bg-center cover aspect-ratio--object"></a>
+        
       </div>
       <a href="{{ .Permalink}}" class="ph2 ph0-ns pb3 link db"><h3 class="f5 f4-ns mb0 black-90">{{ .Title }}</h3></a>
         <p class="f5 fw4 mt2 black-60 mr3">{{ .Summary }}</p>
