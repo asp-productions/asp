@@ -100,13 +100,13 @@
     {{ range $randomPosts }}
 
     <article class="fl w-100 w-third-l">
-      <div class="aspect-ratio--4x3 mr3 pb0">
+      <div class="aspect-ratio--4x3 mr5 pb0">
       
         <a href="{{ .Permalink}}"><img src="{{ .Params.people_feature_image | relURL }}" class="db bg-center cover"></a>
         
       </div>
       <a href="{{ .Permalink}}" class="ph2 ph0-ns pb3 link db"><h3 class="f5 f4-ns mb0 black-90">{{ .Title }}</h3></a>
-        <p class="f5 fw4 mt2 black-60 mr3">{{ .Summary }}</p>
+        <p class="f5 fw4 mt2 black-60 mr5">{{ .Summary }}</p>
 
       <a href="{{ .Permalink}}" class="fl underline grow dib black">Read more</a>
     </article>
