@@ -25,7 +25,7 @@ sections:
   create: all
   match: "**/*"
 upload_dir: content/uploads
-public_path: "/uploads"
+public_path: http://ba-dev-s1.com.s3-website.eu-west-2.amazonaws.com
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
