@@ -1,6 +1,7 @@
 ---
 label: Default
 hide_body: false
+display_field: title
 fields:
 - type: text
   name: title
@@ -8,6 +9,18 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: text
-  name: type
-  label: type
+- type: file
+  name: default_feature_image
+  label: feature image
+  description: Feature image
+- type: textarea
+  name: default_description
+  label: Description
+  description: Secondary page information
+  config:
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: tag_list
+  name: default_tags
+  label: Tags
