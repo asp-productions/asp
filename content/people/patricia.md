@@ -1,8 +1,9 @@
 ---
 title: Patricia Elcock
-date: 2018-09-02 17:23:34 +0000
-people_feature_image: "/uploads/web-P.Elcock.jpg"
+date: '2018-09-02T17:23:34.000+00:00'
+people_feature_image: "/uploads/patricia-elcock.jpg"
 people_profile: Director of Programming | Client Relationship Manager
+'': []
 
 ---
 Patricia Elcock has worked with Actorshop for 15 years. She began as an actor/facilitator before moving into the company’s management team. She has worked with a range of corporate clients both in the UK and abroad including Ford, HSBC, ANZ. Patricia has excellent improvisation, listening and communication skills, which she deploys to great effect in role plays.
