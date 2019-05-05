@@ -1,7 +1,7 @@
 ---
 title: Don Warrington
 date: '2018-09-02T17:23:07.000+00:00'
-people_feature_image: "/don-warrington.jpg"
+people_feature_image: "/uploads/don-warrington.jpg"
 people_profile: ''
 '': []
 
