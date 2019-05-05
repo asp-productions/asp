@@ -1,7 +1,7 @@
 ---
 title: Derek Brown
 date: '2018-09-02T17:11:12.000+00:00'
-people_feature_image: "/derek-brown.jpg"
+people_feature_image: "/uploads/derek-brown.jpg"
 '':
 - Derek Brown
 people_profile: "Derek Brown CEO  \nActorshop Ltd. Client Relationship  \nManager
