@@ -37,10 +37,26 @@
         </article>
         <!-- END Updates widget -->
 
+
+        {{ $randomPosts := shuffle (where .Pages "Type" "testimonials") }}
+
+        {{ range $randomPosts }}
+
         <article class="fl w-100 w-100-m w-50-ns">
           <div class="aspect-ratio aspect-ratio--16x9">
-            <iframe src="https://www.youtube.com/embed/fIDlmBmhPFY" class="aspect-ratio--object" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                    
+            <p>
+              {{ .Content }}
+            </p>
+      
+            <div class="dtc w2 w3-ns v-mid">
+                <img src="http://mrmrs.github.io/photos/p/2.jpg" class="ba b--black-10 db br-100 w2 w3-ns h2 h3-ns"/>
+                <h1 class="flex-none">{{ .Title }}</h1>
+            </div>
+
         </div>
+
+        {{ end }}
 
         {{ range (where .Site.Pages "Type" "about") }}
 
