@@ -13,4 +13,5 @@ fields:
   label: Testimonial quote image
   description: Image for quote
 pages:
+- content/testimonials/archie-maddox.md
 - content/testimonials/jonny-wright.md
