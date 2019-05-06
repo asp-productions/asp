@@ -27,11 +27,12 @@
               </div>
               <div class="pl3">
                 <h1 class="f4 f4-ns fw6 lh-title mt0 mb2"><a class="black" href="{{ .Permalink }}">{{ .Title }}</a></h1>
-                <p class="mt0 black-60">{{ .Summary }}</p>
+                <p class="mt0 black-60 pr5-l">{{ .Summary }}</p>
               </div>
             </article>
 
             {{ end }}
+    
 
           </div>
         </article>
@@ -43,16 +44,17 @@
         {{ range $randomPosts }}
 
         <article class="fl w-100 w-100-m w-50-ns">
-          <div class="aspect-ratio aspect-ratio--16x9">
+          <div class="pa1 pa1-ns">
                     
-            <p>
-              {{ .Content }}
-            </p>
-      
-            <div class="dtc w2 w3-ns v-mid">
-                <img src="http://mrmrs.github.io/photos/p/2.jpg" class="ba b--black-10 db br-100 w2 w3-ns h2 h3-ns"/>
-                <h1 class="flex-none">{{ .Title }}</h1>
-            </div>
+            <blockquote class="f3 lh-title">
+              {{ .Content }}   
+              <div class="dtc w2 w3-ns v-mid">
+                  <a href="{{ .Permalink}}"></a><img src="{{ .Params.testimonial_quote_image | relURL }}" class="ba b--black-10 db br-100 w2 w3-ns h2 h3-ns"/></a>
+                </div>
+                <div class="dtc v-mid pl3">
+                  <cite class="f6 f5-ns fw6 lh-title mv0">-- {{ .Title }}</cite>
+                </div>
+            </blockquote>
 
         </div>
 
@@ -60,7 +62,7 @@
 
         {{ range (where .Site.Pages "Type" "about") }}
 
-        <article class="fl w-100 pa3 bg-near-white mt3">
+        <article class="fl w-90 pa3 bg-near-white mt3">
           <h2 class="f4 mt0 lh-title">{{ .Title }}</h2>
           <p>
             {{ .Summary }}
