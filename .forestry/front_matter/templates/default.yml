@@ -25,5 +25,4 @@ fields:
   name: default_tags
   label: Tags
 pages:
-- content/testimonials/jonny-wright.md
 - content/posts/our-search-for-writers.md

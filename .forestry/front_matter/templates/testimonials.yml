@@ -12,3 +12,5 @@ fields:
     maxSize: 250
   label: Testimonial quote image
   description: Image for quote
+pages:
+- content/testimonials/jonny-wright.md
