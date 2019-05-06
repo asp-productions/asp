@@ -3,18 +3,9 @@ label: Testimonials
 hide_body: false
 fields:
 - type: text
-  name: title
+  name: testimonial_title
   label: Title
-- name: testimonial_quote
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Quote
-  description: Add quote
+  description: Author or organisation name
 - name: testimonial_quote_image
   type: file
   config:
