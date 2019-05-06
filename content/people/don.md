@@ -1,7 +1,9 @@
 ---
 title: Don Warrington
-date: 2018-09-02 17:23:07 +0000
-people_feature_image: "/uploads/web-D.Warrington.jpg"
+date: '2018-09-02T17:23:07.000+00:00'
+people_feature_image: "/uploads/don-warrington.jpg"
+people_profile: ''
+'': []
 
 ---
 Warrington is known for playing Philip Smith in Rising Damp, from 1974 to 1978, alongside Leonard Rossiter, Richard Beckinsale, and Frances de la Tour. Warrington also appeared as series regular in the crime drama C.A.T.S. Eyes, as government contact Nigel Beaumont (1985–1987); in Impact Earth (2007) playing General Harris; and in New Street Law as Judge Ken Winyard.
