@@ -5,6 +5,19 @@ fields:
 - type: text
   name: title
   label: title
-- type: datetime
-  name: date
-  label: date
+- name: testimonial_quote
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Quote
+  description: Add quote
+- name: testimonial_quote_image
+  type: file
+  config:
+    maxSize: 250
+  label: Testimonial quote image
+  description: Quote of author making the testimonial
