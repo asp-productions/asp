@@ -17,7 +17,7 @@
           <div class="w-100 w-100-ns pr4-ns">
             <h1 class="f3 mt0 mb4 lh-title">Updates</h1>
 
-            {{ $paginator := .Paginate (where .Pages "Type" "updates") 4 }}
+            {{ $paginator := .Paginate (where .Pages "Type" "updates") 5 }}
 
             {{ range $paginator.Pages }}
 
@@ -40,7 +40,7 @@
 
         {{ $randomPosts := shuffle (where .Pages "Type" "testimonials") }}
 
-        {{ range $randomPosts }}
+        {{ range $randomPosts | first 1 }}
 
         <article class="fl w-100 w-100-m w-50-ns">
           <div class="pa1 pa1-ns">
@@ -51,7 +51,7 @@
                   <a href="{{ .Permalink}}"></a><img src="{{ .Params.testimonial_quote_image | relURL }}" class="ba b--black-10 db br-100 w2 w3-ns h2 h3-ns"/></a>
                 </div>
                 <div class="dtc v-mid pl3">
-                  <cite class="f6 f5-ns fw6 lh-title mv0">-- {{ .Title }}</cite>
+                  <cite class="f6 f5-ns fw6 lh-title mv0">-- {{ .Params.testimonial_title }}</cite>
                 </div>
             </blockquote>
 
