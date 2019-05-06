@@ -14,4 +14,4 @@ Please send submissions to
 * Email Address:  admin@actorshop.biz 
 * Subject Line: Writing Submission
 
-Please include a bio and any relevant information you’d like us to consider.
+Include a bio and any relevant information you’d like us to consider.
