@@ -66,13 +66,13 @@
 
     <div class="cf">
 
+        {{ range (where .Site.Pages "Type" "our-search-for-writers") }}
+
       <article class="fl w-100 w-100-m w-50-ns pr2 pr2-ns">
         <div class="dtc v-mid flex justify-center">
             <a href="{{ .Permalink}}"><img src="{{ .Params.default_feature_image | relURL }}" class="db bg-center cover"></a>
         </div>
       </article>
-
-      {{ range (where .Site.Pages "Type" "our-search-for-writers") }}
 
       <article class="fl w-100 w-100-m w-50-ns measure-wide v-mid">
         <h1 class="flex-none">{{ .Title }}</h1>
