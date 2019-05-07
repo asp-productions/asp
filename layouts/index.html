@@ -109,7 +109,7 @@
 
     <div class="cf">
 
-    <h1 class="tc">Team</h1>
+    <h1 class="tc">People</h1>
 
     {{ $randomPosts := shuffle (where .Pages "Type" "people") }}
 
@@ -141,9 +141,7 @@
 
       <h1 class="tc">Get in touch with us</h1>
 
-      {{ partial "contact-form.html" . }}
-
-      <article class="fl w-100 w-40-ns">Text</article>
+      <article class="db bg-center br-100 w6 w6-ns cover">{{ partial "contact-form.html" . }}</article>
 
     </div>
 
