@@ -2,7 +2,7 @@
 
 type: "static"
 page: "contact"
-title: "Contact us"
+title: "Contact"
 description: "contact page"
 
 ---
