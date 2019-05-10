@@ -44,7 +44,22 @@ anchor = "smart"
 
 [menu]
 
-  [[menu.main]]
+    [[menu.main]]
     identifier = "about"
     name = "About Us"
     url = "/about/"
+
+    [[menu.main]]
+    identifier = "contact"
+    name = "Get in touch"
+    url = "/contact/"
+
+    [[menu.main]]
+    identifier = "testimonials"
+    name = "Testimonials"
+    url = "/testimonials/"
+
+    [[menu.main]]
+    identifier = "updates"
+    name = "Updates"
+    url = "/updates/"
