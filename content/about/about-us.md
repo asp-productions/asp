@@ -1,7 +1,7 @@
 ---
 title: About
 date: 2018-09-02 16:40:37 +0000
-type: about
+type: about-us
 
 ---
 Triple BAFTA Award winners, Actorshop, have merged with Pampaset to form ASP productions with a vision of producing popular work that reflects and celebrates the diversity of modern Britain, for television and film.
