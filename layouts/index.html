@@ -85,8 +85,8 @@
         {{ range (where .Site.Pages "Type" "our-search-for-writers") }}
 
       <article class="fl w-100 w-100-m w-50-ns">
-        <div class="dtc v-mid flex pr4 pr4-ns">
-            <a href="{{ .Permalink}}"><img src="{{ .Params.default_feature_image | relURL }}" class="db bg-center br-100 w6 w6-ns cover"></a>
+        <div class="pa4 tc">
+            <a href="{{ .Permalink}}"><img src="{{ .Params.default_feature_image | relURL }}" class="h5 w5 dib"></a>
         </div>
       </article>
 
