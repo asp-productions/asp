@@ -19,9 +19,6 @@ fields:
     schema:
       format: markdown
   description: Brief personal title and profile
-- type: tag_list
-  name: ''
-  label: ''
 pages:
 - content/people/derek.md
 - content/people/patricia.md
