@@ -3,7 +3,7 @@ label: Testimonials
 hide_body: false
 fields:
 - type: text
-  name: testimonial_title
+  name: title
   label: Title
   description: Author or organisation name
 - name: testimonial_quote_image
