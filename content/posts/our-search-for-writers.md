@@ -2,7 +2,7 @@
 title: Our Search for Writers
 date: 2018-09-02T16:36:14.000+00:00
 type: our-search-for-writers
-default_feature_image: "/uploads/IMG_2050.jpg"
+default_feature_image: "/uploads/writing-candidate-actorshop.png"
 default_description: ''
 default_tags: []
 
