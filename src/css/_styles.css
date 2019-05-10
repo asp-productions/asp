@@ -1,13 +1,17 @@
 /* Put your custom styles here and run `npm start` from the "src" directory on */
 
+html {
+  font-size: 18px;
+}
+
+h1 {
+  color:#005ea5;
+}
+
+.f4-custom {
+  font-size: 4rem;
+}
+
 #TableOfContents ul li {
   margin-bottom: 1em;
 }
-
-/* h1.custom-title-bg {
-  color: rgb(199, 194, 194);
-  text-align: left;
-  margin-bottom: 12px;
-  background: rgba(0, 0, 0, .7);
-  display: inline;
-} */
