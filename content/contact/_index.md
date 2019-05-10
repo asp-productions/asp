@@ -7,4 +7,4 @@ description: "contact page"
 
 ---
 
-This is the contact page! :)/
+{{ partial "contact-form.html" . }}
