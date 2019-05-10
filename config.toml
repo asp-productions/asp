@@ -13,6 +13,10 @@ anchor = "smart"
 quality = 80
 resampleFilter = "box"
 [[menu.main]]
+name = "BBC link"
+url = "www.bbc.co.uk"
+weight = 5
+[[menu.main]]
 identifier = "updates"
 name = "Updates"
 url = "/updates/"
