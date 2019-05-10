@@ -8,7 +8,30 @@ googleAnalytics = ""
 languageCode = "en-us"
 summarylength = 20
 title = "ASP Productions"
-
+[imaging]
+anchor = "smart"
+quality = 80
+resampleFilter = "box"
+[[menu.main]]
+identifier = "updates"
+name = "Updates"
+url = "/updates/"
+weight = 2
+[[menu.main]]
+identifier = "testimonials"
+name = "Testimonials"
+url = "/testimonials/"
+weight = 1
+[[menu.main]]
+identifier = "contact"
+name = "Get in touch"
+url = "/contact/"
+weight = 3
+[[menu.main]]
+identifier = "about"
+name = "About Us"
+url = "/about/"
+weight = 4
 [params]
 background_color_class = "bg-black"
 description = "Actorshop Productions"
@@ -21,45 +44,7 @@ linkedin = ""
 recent_posts_number = 4
 twitter = "https://twitter.com/"
 youtube = ""
-
 [sitemap]
 changefreq = "monthly"
 filename = "sitemap.xml"
 priority = 0.5
-
-[imaging]
-# Default resample filter used for resizing. Default is Box,
-# a simple and fast averaging filter appropriate for downscaling.
-# See https://github.com/disintegration/imaging
-resampleFilter = "box"
-
-# Defatult JPEG quality setting. Default is 75.
-quality = 80
-
-# Anchor used when cropping pictures.
-# Default is "smart" which does Smart Cropping, using https://github.com/muesli/smartcrop
-# Smart Cropping is content aware and tries to find the best crop for each image.
-# Valid values are Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight
-anchor = "smart"
-
-[menu]
-
-    [[menu.main]]
-    identifier = "about"
-    name = "About Us"
-    url = "/about/"
-
-    [[menu.main]]
-    identifier = "contact"
-    name = "Get in touch"
-    url = "/contact/"
-
-    [[menu.main]]
-    identifier = "testimonials"
-    name = "Testimonials"
-    url = "/testimonials/"
-
-    [[menu.main]]
-    identifier = "updates"
-    name = "Updates"
-    url = "/updates/"
