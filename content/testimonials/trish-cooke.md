@@ -1,5 +1,5 @@
 ---
-testimonial_title: Trish Cooke
+title: Trish Cooke
 testimonial_quote_image: "/uploads/trish-cooke.jpg"
 
 ---

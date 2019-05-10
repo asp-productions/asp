@@ -1,5 +1,5 @@
 ---
-testimonial_title: Archie Maddox
+title: Archie Maddox
 testimonial_quote_image: "/uploads/archie-maddocks.jpg"
 
 ---
