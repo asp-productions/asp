@@ -13,3 +13,5 @@ fields:
   default: []
   label: Tag
   description: Tag category
+pages:
+- content/about/about-us.md
