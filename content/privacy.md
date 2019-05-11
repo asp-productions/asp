@@ -8,7 +8,6 @@ hidden: 'true'
 date: 2019-05-11 08:37:15 +0000
 
 ---
-# Privacy Policy Notice
 
 The policy: This privacy policy notice is served by ASP under the website; [www.actorshop.co.uk]. The purpose of this policy is to explain to you how we control, process, handle and protect your personal information through the business and while you browse or use this website. If you do not agree to the following policy you may wish to cease viewing / using this website, and or refrain from submitting your personal data to us.
 
