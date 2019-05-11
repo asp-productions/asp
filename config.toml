@@ -7,7 +7,7 @@ enableRobotsTXT = true
 googleAnalytics = ""
 languageCode = "en-us"
 summarylength = 20
-title = "ASP Productions"
+title = "ASP"
 [imaging]
 anchor = "smart"
 quality = 80
@@ -34,7 +34,7 @@ url = "/about/"
 weight = 3
 [params]
 background_color_class = "bg-black"
-description = "Actorshop Productions"
+description = "ASP"
 facebook = ""
 favicon = ""
 featured_image = "ac-train-track-bg.jpg"
