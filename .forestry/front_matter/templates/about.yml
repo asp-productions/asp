@@ -6,8 +6,10 @@ fields:
   name: title
   label: title
 - type: text
-  name: date
-  label: date
-- type: text
   name: type
   label: type
+- name: tag
+  type: tag_list
+  default: []
+  label: Tag
+  description: Tag category
