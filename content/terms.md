@@ -5,6 +5,7 @@ page: "contact"
 title: "terms"
 description: "terms page"
 weight: "1"
+date: 2019-05-11 08:37:15 +0000
 
 ---
 

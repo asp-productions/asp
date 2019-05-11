@@ -5,6 +5,7 @@ title: privacy
 description: privacy page
 weight: 1
 hidden: 'true'
+date: 2019-05-11 08:37:15 +0000
 
 ---
 # Privacy Policy Notice
