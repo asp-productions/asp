@@ -1,6 +1,6 @@
 ---
 title: About
-date: 2018-09-02 16:40:37 +0000
+date: 
 type: about-us
 
 ---
