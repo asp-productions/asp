@@ -1,4 +1,4 @@
-{{ $featured_image := .Param "featured_image" | default "content/uploads/ac-train-track-bg.jpg" }}
+{{ $featured_image := .Param "featured_image" | default "uploads/ac-train-track-bg.jpg" }}
 {{ if $featured_image }}
   {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
   {{ $featured_image := (trim $featured_image "/") | absURL }}
@@ -9,7 +9,7 @@
       <nav class="dt w-100 mw8 center">
         <div class="dtc w2 v-mid pa3">
           <a href="/" class="dib w3 h1">
-            <img src="/uploads/asp-logo-transparent-white-400x395.png" alt="ASP Prod" height="70" width="69">
+            <img src="uploads/asp-logo-transparent-white-400x395.png" alt="ASP" height="70" width="69">
           </a>
         </div>
         <div class="dtc v-mid tr">
