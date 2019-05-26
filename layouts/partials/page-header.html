@@ -1,24 +1,21 @@
-{{ $featured_image := .Params.featured_image }}
+{{ $featured_image := .Param "featured_image" | default "uploads/ac-train-track-bg.jpg" }}
 {{ if $featured_image }}
   {{/* Trimming the slash and adding absURL make sure the image works no matter where our site lives */}}
   {{ $featured_image := (trim $featured_image "/") | absURL }}
-  <header class="cover bg-top" style="background-image: url('{{ $featured_image }}');">
-    <div class="pb3-m pb6-l bg-black-60">
-      {{ partial "site-navigation.html" . }}
-      <div class="tc-l pv6 ph3 ph4-ns">
-        <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">{{ .Title | default .Site.Title }}</h1>
-        {{ with .Params.description  }}
-          <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
-            {{ . }}
-          </h2>
-        {{ end }}
-      </div>
+
+<header class="sans-serif">
+  <div class="cover bg-left bg-center-l" style="background-image: url('{{ $featured_image }}');">
+    <div class="bg-black-80">
+      <nav class="dt w-100 mw8 center">
+        <div class="dtc w2 v-mid pa3">
+          <a href="/" class="dib w3 h1">
+            <img src="{{ .Site.BaseURL }}uploads/asp-logo-transparent-white-400x395.png" alt="ASP" height="70" width="69">
+          </a>
+        </div>
+        <div class="dtc v-mid tr">
+          {{ partial "site-navigation.html" .}}{{ end }}
+        </div>
+      </nav>
     </div>
-  </header>
-{{ else }}
-  <header>
-    <div class="{{ .Site.Params.background_color_class | default "bg-black" }}">
-      {{ partial "site-navigation.html" . }}
-    </div>
-  </header>
-{{ end }}
+  </div>
+</header>
