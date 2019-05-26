@@ -1,6 +1,6 @@
 ---
-title: Update One
-date: 2018-09-17 20:07:56 +0000
+title: Update 1
+date: 2018-09-17T20:07:56.000+00:00
 
 ---
 **This is the first update.**
