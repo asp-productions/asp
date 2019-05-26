@@ -14,7 +14,7 @@ fields:
     maxSize: 250
   label: Feature image
   description: Add feature image
-- name: image-aside-quote
+- name: image_aside_quote
   type: textarea
   default: ''
   config:
