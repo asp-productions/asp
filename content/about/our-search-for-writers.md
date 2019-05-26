@@ -6,7 +6,7 @@ default_feature_image: "/uploads/writing-candidate-actorshop.png"
 default_description: ''
 default_tags: []
 tag: []
-feature_image: "/uploads/writing-candidate-actorshop.png"
+feature_image: "/uploads/hanif-kureishi.jpg"
 
 ---
 If you feel passionately a story should be told, we’d like to have a read. We don’t want more than an A4 setting out the idea and promise to get back to you promptly. 

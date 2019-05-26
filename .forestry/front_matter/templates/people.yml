@@ -20,6 +20,6 @@ fields:
       format: markdown
   description: Brief personal title and profile
 pages:
-- content/people/derek.md
-- content/people/patricia.md
 - content/people/don.md
+- content/people/patricia.md
+- content/people/derek.md

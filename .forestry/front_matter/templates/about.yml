@@ -20,5 +20,5 @@ fields:
   label: Tag
   description: Tag category
 pages:
-- content/about/our-search-for-writers.md
 - content/about/about-us.md
+- content/about/our-search-for-writers.md
