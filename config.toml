@@ -7,7 +7,7 @@ enableRobotsTXT = true
 googleAnalytics = "UA-140050901-1"
 languageCode = "en-us"
 summarylength = 20
-title = "ASP"
+title = "ASP Productions"
 [imaging]
 anchor = "smart"
 quality = 80

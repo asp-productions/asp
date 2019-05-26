@@ -84,17 +84,22 @@
 
         {{ range (where .Site.Pages "Type" "our-search-for-writers") }}
 
-      <article class="fl w-100 w-100-m w-50-ns">
-        <div class="pa4 tc">
-            <a href="{{ .Permalink}}"><img src="{{ .Params.feature_image | relURL }}" class="h5 w5 dib"></a>
-        </div>
-        <div class="w5 tc center">
-          <p class="f4">{{ .Params.image_aside_quote }}</p>
-      </div>
+      <article class="fl w-100 w-100-m w-50-ns measure-wide tc">
+            <a href="{{ .Permalink}}"><img src="{{ .Params.feature_image | relURL }}" class="h5 w5 dib v-mid"></a>
       </article>
 
-      <article class="fl w-100 w-100-m w-50-ns measure-wide v-mid">
-        <h1 class="flex-none">{{ .Title }}</h1>
+      <article class="fl w-100 w-100-m w-50-ns measure-wide">
+            <p class="f3 dib v-mid">{{ .Params.image_aside_quote }}</p>
+      </article>
+
+      </div>
+
+    </section>
+      <section class="pa3 pa5-ns bt b--black-10 black-70 bg-white">
+      <div class="cf">
+
+      <article class="w-100 w-100-m w-100-ns measure-wide center">
+        <h1 class="flex-none tc">{{ .Title }}</h1>
         <p>
           {{ .Content }}
         </p>
