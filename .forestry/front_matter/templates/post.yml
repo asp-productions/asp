@@ -20,5 +20,6 @@ fields:
   name: updates_tags
   label: Tags
 pages:
+- content/updates/update-seven.md
 - content/updates/update-five.md
 - content/updates/update-six.md
