@@ -21,7 +21,7 @@ fields:
     required: false
     wysiwyg: true
     schema:
-      format: markdown
+      format: html-blocks
   label: Accompanying image quote
 - name: tag
   type: tag_list
