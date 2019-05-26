@@ -14,6 +14,15 @@ fields:
     maxSize: 250
   label: Feature image
   description: Add feature image
+- name: image-aside-quote
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Accompanying image quote
 - name: tag
   type: tag_list
   default: []

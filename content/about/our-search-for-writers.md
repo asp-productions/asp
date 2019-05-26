@@ -7,6 +7,10 @@ default_description: ''
 default_tags: []
 tag: []
 feature_image: "/uploads/hanif-kureishi.jpg"
+image-aside-quote: '"I love the working relationship I have with ASP.  Few companies
+  have the respect for writers that I found with ASP Productions and as a writer myself
+  it’s exciting to see how committed they are to finding and developing authentic
+  voices."'
 
 ---
 If you feel passionately a story should be told, we’d like to have a read. We don’t want more than an A4 setting out the idea and promise to get back to you promptly. 
