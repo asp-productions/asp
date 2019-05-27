@@ -85,7 +85,7 @@
         {{ range (where .Site.Pages "Type" "our-search-for-writers") }}
 
       <article class="fl w-100 w-100-m w-50-ns measure-wide tc">
-            <a href="{{ .Permalink}}"><img src="{{ .Params.feature_image | relURL }}" class="h5 w5 dib v-mid"></a>
+            <img src="{{ .Params.feature_image | relURL }}" class="h5 w5 dib v-mid">
       </article>
 
       <article class="fl w-100 w-100-m w-50-ns measure-wide">
