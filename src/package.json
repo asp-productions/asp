@@ -15,8 +15,8 @@
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.4.0",
-    "css-loader": "^0.28.0",
-    "cssnano": "^3.10.0",
+    "css-loader": "^2.1.1",
+    "cssnano": "^4.1.10",
     "extract-text-webpack-plugin": "^2.1.0",
     "file-loader": "^0.11.1",
     "jquery": "^3.2.1",
@@ -29,6 +29,6 @@
     "webpack": "^2.3.3"
   },
   "dependencies": {
-    "yarn": "^1.13.0"
+    "yarn": "^1.16.0"
   }
 }

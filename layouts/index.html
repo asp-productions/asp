@@ -13,11 +13,11 @@
       <div class="cf">
 
         <!-- Updates widget starts -->
-        <article class="fl w-100 w-100-m w-50-ns pr0">
+        <article class="fl w-100 w-100-m w-40-ns pr0">
           <div class="w-100 w-100-ns pr4-ns">
             <h1 class="f3 mt0 mb4 lh-title">Updates</h1>
 
-            {{ $paginator := .Paginate (where .Pages "Type" "updates") 5 }}
+            {{ $paginator := .Paginate (where .Pages "Type" "updates") 4 }}
 
             {{ range $paginator.Pages }}
 
@@ -26,8 +26,7 @@
                 <time>{{ .Date | dateFormat "2006"}}</time>
               </div>
               <div class="pl3">
-                <h1 class="f4 f4-ns fw6 lh-title mt0 mb2"><a class="black" href="{{ .Permalink }}">{{ .Title }}</a></h1>
-                <p class="mt0 black-60 pr5-l">{{ .Summary }}</p>
+                <h2 class="f5 f5-ns fw6 lh-title mt0 mb2">{{ .Title }}</h2>
               </div>
             </article>
 
@@ -41,8 +40,8 @@
 
         {{ range $randomPosts | first 1 }}
 
-        <article class="fl w-100 w-100-m w-50-ns">
-          <div class="pa1 pa1-ns">
+        <article class="fl w-100 w-100-m w-60-ns">
+          <div class="pa3 pa3-ns">
                     
             <blockquote class="f3 tracked-tight fw5">
               {{ .Content }}   
@@ -58,24 +57,27 @@
 
         {{ end }}
 
-        {{ range (where .Site.Pages "Type" "about-us") }}
-
-        <article class="fl w-90 pa4 bg-near-white mt3">
-          <h1 class="f4 mt0 lh-title gov-blue">{{ .Title }}</h1>
-          <p>
-            {{ .Summary }}
-          </p>
-          <a href="{{ .Permalink}}" class="fr underline grow dib black">Read more</a>
-        </article>
-
-        {{ end }}
-
         </article>
 
       </dev>
-
   </section>
   <!-- END updates section -->
+
+  <!-- about us section -->
+  {{ range (where .Site.Pages "Type" "about-us") }}
+
+  <section class="pa3 pa5-ns bt b--black-10 black-70 bg-white">
+    <div class="measure-wide center">
+    <h1 class="f3 mt0 lh-title gov-blue">{{ .Title }}</h1>
+    <p>
+      {{ .Summary }}
+    </p>
+    <a href="{{ .Permalink}}" class="fr underline dib black">Read more</a>
+    </div>
+  </section>
+
+  {{ end }}
+  <!-- END about us section -->
 
   <!-- Writer callout section -->
   <section class="pa3 pa5-ns bt b--black-10 black-70 bg-white">
@@ -99,8 +101,8 @@
       <div class="cf">
 
       <article class="w-100 w-100-m w-100-ns measure-wide center">
-        <h1 class="flex-none tc">{{ .Title }}</h1>
-        <p>
+        <h1 class="f3 flex-none tc">{{ .Title }}</h1>
+        <p class="f3">
           {{ .Content }}
         </p>
       </article>
