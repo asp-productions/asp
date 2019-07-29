@@ -61,7 +61,7 @@ module.exports = {
 			prettyPrint: devMode ? true : false
 		}),
 		new MiniCssExtractPlugin({
-			filename: devMode ? 'css/[name].[hash].css' : '[name].[hash].css',
+			filename: devMode ? 'css/[name].[hash].css' : 'css/[name].[hash].css',
 		})
 	],
 	resolve: {
