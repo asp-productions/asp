@@ -13,7 +13,7 @@
 		<!-- Updates widget starts -->
 		<article class="fl w-100 w-100-m w-40-ns pr0">
 			<div class="w-100 w-100-ns pr4-ns">
-				<h1 class="f3 mt0 mb4 lh-title">Updates</h1>
+				<h1 class="f3 mt0 mb4 lh-title georgia">Updates</h1>
 				{{ $paginator := .Paginate (where .Pages "Type" "updates") 4 }} {{ range $paginator.Pages }}
 				<article class="dt w-100 pb2 mt2">
 					<div class="dtc w3 w3-ns">
@@ -31,7 +31,7 @@
 		<!-- about us section -->{{ range (where .Site.Pages "Type" "about-us") }}
 		<article class="fl w-100 w-100-m w-60-ns pr0">
 			<div class="dt w-100 mw8 center pr5-ns pl5-ns">
-				<h1 class="f3 mt0 lh-title gov-blue">{{ .Title }}</h1>
+				<h1 class="f3 mt0 lh-title gov-blue georgia">{{ .Title }}</h1>
 					<a href="{{ .Permalink}}"></a>
 					<img src="{{ .Params.feature_image | relURL }}" class="fl w5 mr4" />
 					</a>
@@ -69,7 +69,7 @@
 <section class="pa3 pa5-ns bt b--black-10 black-70 bg-white">
 	<div class="dt w-100 mw8 center">
 		<article class="w-100 w-100-m w-100-ns measure-wide center">
-			<h1 class="f3 flex-none tc">{{ .Title }}</h1>
+			<h1 class="f3 flex-none tc georgia">{{ .Title }}</h1>
 			<p>{{ .Content }}</p>
 		</article>
 	</div>
@@ -93,7 +93,7 @@
 	<!-- people section -->
 	<section class="pa3 pa5-ns bt b--black-10 black-70 bg-white">
 		<div class="dt w-100 mw8 center">
-			<h1 class="tc">Meet the people behind ASP</h1>
+			<h1 class="f3 flex-none tc georgia">Meet the people behind ASP</h1>
 			{{ $randomPosts := shuffle (where .Pages "Type" "people") }} {{ range $randomPosts }}
 			<article class="fl w-100 pt3 w-third-l">
 				<div class="aspect-ratio--4x3 mr5-ns pb0">
@@ -110,7 +110,7 @@
 	<a name="contact"></a>
 	<section class="pa3 pa5-ns b--black-10 black-70">
 		<div class="cf">
-			<h1 class="tc">Get in touch with us</h1>
+			<h1 class="f3 flex-none tc georgia">Get in touch with us</h1>
 			<article class="db bg-center br-100 w6 w6-ns cover">{{ partial "contact-form.html" . }}</article>
 		</div>
 	</section>
