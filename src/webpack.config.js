@@ -1,12 +1,23 @@
-var path = require('path');
-var ExtractTextPlugin = require('extract-text-webpack-plugin');
-var webpack = require('webpack');
-var AssetsPlugin = require('assets-webpack-plugin');
+/*** 
+ * Webpack config file for compiling and managing site assets.
+ */
+
+const path = require('path');
+const AssetsPlugin = require('assets-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
 	entry: {
-		app: './js/main.js'
+		app: './js/main.js',
 	},
+	output: {
+		path: path.resolve(__dirname, './../static/dist'),
+		filename: 'js/[name].[chunkhash].js',
+		libraryTarget: 'umd',
+		library: 'asp'
+	},
+	mode : devMode ? 'development' : 'production',
 	module: {
 		rules: [
 			{
@@ -21,37 +32,39 @@ module.exports = {
 			},
 			{
 				test: /\.css$/,
-				use: ExtractTextPlugin.extract({
-					fallback: 'style-loader',
-					use: 'css-loader?importLoaders=1!postcss-loader'
-				})
+				exclude: /node_modules/,
+				use: [
+					'style-loader',
+					MiniCssExtractPlugin.loader,
+					{ loader: 'css-loader', options: { importLoaders: 1 } },
+					'postcss-loader',
+				]
 			}
 		]
 	},
-
-	output: {
-		path: path.join(__dirname, './../static/dist'),
-		filename: 'js/[name].[chunkhash].js'
-	},
-
+	optimization: {
+		splitChunks: {
+		  cacheGroups: {
+			styles: {
+			  name: 'app',
+			  test: /\.css$/,
+			  chunks: 'all',
+			  enforce: true,
+			},
+		  },
+		},
+	  },
+	plugins: [
+		new AssetsPlugin({
+			path: path.resolve(__dirname, '../data'),
+			filename: 'webpack_assets.json',
+			prettyPrint: devMode ? true : false
+		}),
+		new MiniCssExtractPlugin({
+			filename: devMode ? 'css/[name].[hash].css' : '[name].[hash].css',
+		})
+	],
 	resolve: {
 		modules: [path.resolve(__dirname, 'src'), 'node_modules']
 	},
-
-	plugins: [
-		new AssetsPlugin({
-			filename: 'webpack_assets.json',
-			path: path.join(__dirname, '../data'),
-			prettyPrint: true
-		}),
-		new ExtractTextPlugin({
-			filename: getPath => {
-				return getPath('css/[name].[contenthash].css');
-			},
-			allChunks: true
-		})
-	],
-	watchOptions: {
-		watch: true
-	}
 };
