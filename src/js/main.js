@@ -1,6 +1,5 @@
 import styles from './../css/main.css';
 
-
 // NOTE: TO use Jquery, just call the modules you want
 // var $ = require('jquery/src/core');
 // require('jquery/src/core/init');
