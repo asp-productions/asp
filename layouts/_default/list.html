@@ -1,6 +1,8 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
 {{ define "main" }}
-  <article class="pa3 pa4-ns nested-copy-line-height nested-img">
-  <main class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+  <article class="dt w-100 mw8 center">
+  <main class="cf ph3 ph5-l f4 tc-l center measure-wide lh-copy mid-gray">
+    <p class="f3 dib v-mid">{{ .Params.image_aside_quote }}</p>
     {{- .Content -}}
   </main>
     <section class="flex-ns flex-wrap justify-around mt5">

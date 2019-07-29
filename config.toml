@@ -42,7 +42,7 @@ github = ""
 instagram = ""
 linkedin = ""
 recent_posts_number = 4
-twitter = "https://twitter.com/"
+twitter = ""
 youtube = ""
 [sitemap]
 changefreq = "monthly"
