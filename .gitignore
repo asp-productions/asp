@@ -13,5 +13,7 @@
 *.out
 
 # Folder directories we compile outside of the Git Directory
-/content/uploads/*
+content/*
+public/uploads/*
+
 src/node_modules

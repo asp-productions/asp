@@ -4,21 +4,55 @@
   
   <url>
     <loc>/privacy/</loc>
+    <lastmod>2019-05-11T08:37:15+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/terms/</loc>
+    <lastmod>2019-05-11T08:37:15+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
+    <loc>/</loc>
+    <lastmod>2019-07-10T21:07:56+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/updates/update-one/</loc>
-    <lastmod>2018-09-17T20:07:56+00:00</lastmod>
+    <lastmod>2019-07-10T21:07:56+01:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/updates/</loc>
+    <lastmod>2019-07-10T21:07:56+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/updates/update-four/</loc>
+    <lastmod>2019-05-31T23:05:48+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/testimonials/jonny-wright/</loc>
+    <lastmod>2019-05-06T00:00:00+01:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/testimonials/</loc>
+    <lastmod>2019-05-06T00:00:00+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -31,6 +65,13 @@
   <url>
     <loc>/updates/update-five/</loc>
     <lastmod>2018-09-17T08:37:15+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/people/</loc>
+    <lastmod>2018-09-02T17:23:34+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -57,43 +98,14 @@
   </url>
   
   <url>
-    <loc>/posts/about/</loc>
-    <lastmod>2018-09-02T16:40:37+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/posts/our-search-for-writers/</loc>
+    <loc>/about/</loc>
     <lastmod>2018-09-02T16:36:14+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/updates/update-four/</loc>
-    <lastmod>2018-09-01T22:05:48+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/updates/update-three/</loc>
-    <lastmod>2018-09-01T21:57:15+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/updates/update-two/</loc>
-    <lastmod>2018-07-22T20:08:00+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/people/</loc>
-    <lastmod>2018-09-02T17:23:34+00:00</lastmod>
+    <loc>/about/our-search-for-writers/</loc>
+    <lastmod>2018-09-02T16:36:14+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -105,15 +117,25 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2018-09-17T20:07:56+00:00</lastmod>
+    <loc>/about/about-us/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0</priority>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/testimonials/archie-maddox/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/testimonials/carlo-kureishi/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/categories/</loc>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
@@ -124,23 +146,20 @@
   </url>
   
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2018-09-02T16:40:37+00:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/</loc>
-    <changefreq>monthly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/updates/</loc>
-    <lastmod>2018-09-17T20:07:56+00:00</lastmod>
+    <loc>/testimonials/trish-cooke/</loc>
     <changefreq>monthly</changefreq>
-    <priority>0</priority>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/updates/update-seven/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>
