@@ -14,6 +14,6 @@ fields:
   description: Image for quote
 pages:
 - content/testimonials/carlo-kureishi.md
-- content/testimonials/archie-maddox.md
 - content/testimonials/trish-cooke.md
+- content/testimonials/archie-maddox.md
 - content/testimonials/jonny-wright.md
