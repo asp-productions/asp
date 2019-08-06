@@ -14,6 +14,5 @@
 
 # Folder directories we compile outside of the Git Directory
 content/*
-public/uploads/*
-
+public/*
 src/node_modules
