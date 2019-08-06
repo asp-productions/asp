@@ -14,22 +14,22 @@ quality = 80
 resampleFilter = "box"
 [[menu.main]]
 identifier = "updates"
-name = "Updates"
+name = "updates"
 url = "/updates/"
 weight = 2
 [[menu.main]]
 identifier = "testimonials"
-name = "Testimonials"
+name = "testimonials"
 url = "/testimonials/"
 weight = 4
 [[menu.main]]
 identifier = "contact"
-name = "Get in touch"
+name = "get in touch"
 url = "/#contact"
 weight = 1
 [[menu.main]]
 identifier = "about"
-name = "About Us"
+name = "about us"
 url = "/about/"
 weight = 3
 [params]

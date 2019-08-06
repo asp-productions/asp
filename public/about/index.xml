@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on ASP Productions</title>
+    <link>/about/</link>
+    <description>Recent content in Abouts on ASP Productions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 02 Sep 2018 16:36:14 +0000</lastBuildDate>
+    
+	<atom:link href="/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Our Search for Writers</title>
+      <link>/about/our-search-for-writers/</link>
+      <pubDate>Sun, 02 Sep 2018 16:36:14 +0000</pubDate>
+      
+      <guid>/about/our-search-for-writers/</guid>
+      <description>If you feel passionately a story should be told, we’d like to have a read. We don’t want more than an A4 setting out the idea and promise to get back to you promptly.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/about-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/about-us/</guid>
+      <description>Triple BAFTA Award winners, Actorshop, have merged with Pampaset to form ASP productions with a vision of producing popular work that reflects and celebrates the diversity of modern Britain, for television and film.</description>
+    </item>
+    
+  </channel>
+</rss>

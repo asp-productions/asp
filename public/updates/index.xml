@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Updates on ASP Productions</title>
+    <link>/updates/</link>
+    <description>Recent content in Updates on ASP Productions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 10 Jul 2019 21:07:56 +0100</lastBuildDate>
+    
+	<atom:link href="/updates/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Good to catch up with the lovely Jimmy Akingbola today at BAFTA</title>
+      <link>/updates/update-one/</link>
+      <pubDate>Wed, 10 Jul 2019 21:07:56 +0100</pubDate>
+      
+      <guid>/updates/update-one/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Looking forward to Talawa Firsts 2019: Fresh Black Voices - Innovative - Electrifying - Unapologetic - at the Ditch at Shoreditch Town Hall to celebrate the UK&#39;s most exciting new Black writers and theatre makers from 19th June to 5th July 2019.</title>
+      <link>/updates/update-four/</link>
+      <pubDate>Fri, 31 May 2019 23:05:48 +0100</pubDate>
+      
+      <guid>/updates/update-four/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Great to see Leeds Playhouse will be staging a new production of Hanif Kureishi’s iconic and Oscar-nominated screenplay MY BEAUTIFUL LAUNDRETTE</title>
+      <link>/updates/update-six/</link>
+      <pubDate>Mon, 17 Sep 2018 08:41:49 +0000</pubDate>
+      
+      <guid>/updates/update-six/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Great table reading of WILD ALICE by Hanif Kureishi.  Brilliant script and a fabulous cast.  Thank you to all who were present for your contributions! </title>
+      <link>/updates/update-five/</link>
+      <pubDate>Mon, 17 Sep 2018 08:37:15 +0000</pubDate>
+      
+      <guid>/updates/update-five/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Very much looking forward to STRANGE FRUIT by Caryl Phillips at the Bush.  Wonderful to see this production coming back!</title>
+      <link>/updates/update-seven/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/updates/update-seven/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

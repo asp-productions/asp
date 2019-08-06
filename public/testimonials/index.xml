@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testimonials on ASP Productions</title>
+    <link>/testimonials/</link>
+    <description>Recent content in Testimonials on ASP Productions</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 May 2019 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="/testimonials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Jonny Wright</title>
+      <link>/testimonials/jonny-wright/</link>
+      <pubDate>Mon, 06 May 2019 00:00:00 +0100</pubDate>
+      
+      <guid>/testimonials/jonny-wright/</guid>
+      <description>&amp;ldquo;I&amp;rsquo;ve had a great relationship with first Pampaset and now Actorshop. Through them I got my first film and then television development deals and without their support, I don&amp;rsquo;t know if I&amp;rsquo;d still be writing today.</description>
+    </item>
+    
+    <item>
+      <title>Archie Maddox</title>
+      <link>/testimonials/archie-maddox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/testimonials/archie-maddox/</guid>
+      <description>&amp;ldquo;Writing is one of those weird processes that you can’t really explain why you have to do it. I don’t think anyone chooses to be a writer, you kind of just are.</description>
+    </item>
+    
+    <item>
+      <title>Carlo Kureishi</title>
+      <link>/testimonials/carlo-kureishi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/testimonials/carlo-kureishi/</guid>
+      <description>&amp;ldquo;Before meeting Derek and Don I had only vague ambitions of becoming a screenwriter. Like anyone interested in writing films and television shows, I&amp;rsquo;d started with the how-to books; playing with scenes and characters, dialogue and structure, hoping something great might accidentally come out of me.</description>
+    </item>
+    
+    <item>
+      <title>Trish Cooke</title>
+      <link>/testimonials/trish-cooke/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/testimonials/trish-cooke/</guid>
+      <description>&amp;ldquo;I had the pleasure of working with Actorshop, as a writer, a few years ago whilst developing a children’s TV drama idea with them for CBBC.</description>
+    </item>
+    
+  </channel>
+</rss>
