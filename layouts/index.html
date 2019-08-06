@@ -13,14 +13,14 @@
 		<!-- Updates widget starts -->
 		<article class="fl w-100 w-100-m w-40-ns pr0">
 			<div class="w-100 w-100-ns pr4-ns">
-				<h1 class="f3 mt0 mb4 lh-title georgia">Updates</h1>
+				<h1 class="f3 mt0 mb4 lh-title fillertext">Updates</h1>
 				{{ $paginator := .Paginate (where .Pages "Type" "updates") 4 }} {{ range $paginator.Pages }}
-				<article class="dt w-100 pb2 mt2">
+				<article class="dt w-100 pb2">
 					<div class="dtc w3 w3-ns">
 						<time>{{ .Date | dateFormat "2006"}}</time>
 					</div>
 					<div class="pl3">
-						<h2 class="f5 f5-ns fw6 lh-title mt0 mb2">{{ .Title }}</h2>
+						<h2 class="f4 fw4 mt2">{{ .Title }}</h2>
 					</div>
 				</article>
 				{{ end }}
@@ -30,10 +30,10 @@
     
 		<!-- about us section -->{{ range (where .Site.Pages "Type" "about-us") }}
 		<article class="fl w-100 w-100-m w-60-ns pr0">
-			<div class="dt w-100 mw8 center pr5-ns pl5-ns">
-				<h1 class="f3 mt0 lh-title gov-blue georgia">{{ .Title }}</h1>
+			<div class="dt center pr5-ns pl5-ns">
+				<h1 class="f3 mt0 lh-title gov-blue fillertext">{{ .Title }}</h1>
 					<a href="{{ .Permalink}}"></a>
-					<img src="{{ .Params.feature_image | relURL }}" class="fl w5 mr4" />
+					<img src="{{ .Params.feature_image | relURL }}" class="fl w5 mr2" />
 					</a>
 					<p class="pl3">{{ .Content }}</p>
 			</div>
@@ -49,7 +49,7 @@
 	<div class="dt w-100 mw8 center">{{ $randomPosts := shuffle (where .Pages "Type" "testimonials") }} {{ range $randomPosts | first 1 }}
 		<article class="fl w-100 w-100-m w-100-ns">
 			<div class="pa3 pa3-ns">
-				<blockquote class="f3 dib v-mid">
+				<blockquote class="f4 fw4 lh-title fw9 georgia">
 					{{ .Content }}
 					<div class="dtc w2 w3-ns v-mid">
 						<a href="{{ .Permalink}}"></a>
@@ -68,8 +68,8 @@
 <!-- Writer callout section -->{{ range (where .Site.Pages "Type" "our-search-for-writers") }}</section>
 <section class="pa3 pa5-ns bt b--black-10 black-70 bg-white">
 	<div class="dt w-100 mw8 center">
-		<article class="w-100 w-100-m w-100-ns measure-wide center">
-			<h1 class="f3 flex-none tc georgia">{{ .Title }}</h1>
+		<article class="w-100 w-100-m w-100-ns tc center">
+			<h1 class="f3 flex-none tc fillertext">{{ .Title }}</h1>
 			<p>{{ .Content }}</p>
 		</article>
 	</div>
@@ -82,7 +82,7 @@
 					<img src="{{ .Params.feature_image | relURL }}" class="h5 w5 dib v-mid">
 				</a>
 			</article>
-			<article class="fl w-100 w-100-m w-50-ns measure-wide">
+			<article class="fl w-100 w-100-m w-50-ns georgia f5 measure-wide">
 				<p class="f3 dib v-mid">{{ .Params.image_aside_quote }}</p>
 			</article>
 		</div>
@@ -93,7 +93,7 @@
 	<!-- people section -->
 	<section class="pa3 pa5-ns bt b--black-10 black-70 bg-white">
 		<div class="dt w-100 mw8 center">
-			<h1 class="f3 flex-none tc georgia">Meet the people behind ASP</h1>
+			<h1 class="f3 flex-none tc fillertext">Meet the people behind ASP</h1>
 			{{ $randomPosts := shuffle (where .Pages "Type" "people") }} {{ range $randomPosts }}
 			<article class="fl w-100 pt3 w-third-l">
 				<div class="aspect-ratio--4x3 mr5-ns pb0">
@@ -101,7 +101,7 @@
 						<img src="{{ .Params.people_feature_image | relURL }}" class="db bg-center cover">
 					</a>
 				</div> <a href="{{ .Permalink}}" class="ph2 ph0-ns pb3 link db"><h3 class="f5 f4-ns mb0 black-90">{{ .Title }}</h3></a>
-				<p class="f5 fw4 mt2 black-60 mr5">{{ .Summary }}</p> <a href="{{ .Permalink}}" class="fl underline grow dib black">Read more</a>
+				<p class="f4 fw4 mr5">{{ .Summary }}</p> <a href="{{ .Permalink}}" class="fl f4 fw4 underline grow dib black">Read more</a>
 			</article>{{ end }}</div>
 	</section>
   <!-- END people section -->
@@ -110,8 +110,8 @@
 	<a name="contact"></a>
 	<section class="pa3 pa5-ns b--black-10 black-70">
 		<div class="cf">
-			<h1 class="f3 flex-none tc georgia">Get in touch with us</h1>
-			<article class="db bg-center br-100 w6 w6-ns cover">{{ partial "contact-form.html" . }}</article>
+			<h1 class="f3 flex-none tc fillertext">Get in touch with us</h1>
+			<article class="db bg-center br-100 w6 w6-ns cover f4 fw4">{{ partial "contact-form.html" . }}</article>
 		</div>
 	</section>
 	<!-- END contact section -->{{ end }} {{ end }}

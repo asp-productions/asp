@@ -8,13 +8,23 @@ h1 {
   color:#005ea5;
 }
 
+p {
+  font-size: 1.2em;
+}
+
 .button-custom {
   background-color: #005ea5;
   border:0;
   cursor: pointer;
 }
 .f4-custom {
-  background: #005ea5;
+  background:rgba(48, 48, 48, .8);
+  display: inline;
+  font-size: 1.7em;
+}
+
+.tag-custom {
+  background:rgba(48, 48, 48, .8);
   display: inline;
 }
 
