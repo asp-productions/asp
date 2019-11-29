@@ -7,17 +7,39 @@ jobs:
     environment:
       HUGO_BUILD_DIR: ~/hugo/public
     steps:
-      #- run: apk update && apk add git
+
+      # install git
+      - run: apk update && apk add git
+
+      # checkout the repository
       - checkout
+
+      # install git submodules for managing third-party dependencies
       - run: git submodule sync && git submodule update --init
-      - run: curl -L https://github.com/bep/s3deploy/releases/download/v2.0.1/s3deploy_2.0.1_Linux-64bit.tar.gz | tar xvz
+
+      - run:
+          name: install AWS CLI (first install pip, the Python package manager)
+          command: |
+            apk add --update python python-dev py-pip build-base
+            pip install awscli
+
+      # build with Hugo
       - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
-      - run: htmlproofer $HUGO_BUILD_DIR --allow-hash-href --check-html --empty-alt-ignore --disable-external
+ 
+      - run:
+          name: test our generated HTML files
+          command: |
+            htmlproofer $HUGO_BUILD_DIR --allow-hash-href --check-html \
+            --empty-alt-ignore --disable-external
+
+      # `deploy` step: identical to a `run` step, but uses only one container:
+      # /docs/2.0/configuration-reference/#deploy 
       - deploy:
-          name: deploy
+          name: deploy to AWS
           command: |
             if [ "${CIRCLE_BRANCH}" = "master" ]; then
-              ./s3deploy -source=$HUGO_BUILD_DIR -region=us-east-1 -bucket=asp-cf-test-bucket -path=/
+              aws s3 sync $HUGO_BUILD_DIR \
+              s3://your-bucket-name/your-subfolder --delete
             else
               echo "Not master branch, dry run only"
             fi
