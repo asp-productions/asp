@@ -2,18 +2,18 @@ version: 2
 jobs:
   build:
     docker:
-      - image: cibuilds/hugo:latest
+      - image: felicianotech/docker-hugo:0.50
     working_directory: ~/hugo
     environment:
       HUGO_BUILD_DIR: ~/hugo/public
     steps:
-      - run: apk update
-      - run: apk add git
       - checkout
-      - run: git submodule sync && git submodule update --init
-      - run: curl -L https://github.com/bep/s3deploy/releases/download/v2.0.1/s3deploy_2.0.1_Linux-64bit.tar.gz | tar xvz
-      - run: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
-      - run: htmlproofer $HUGO_BUILD_DIR --allow-hash-href --check-html --empty-alt-ignore --disable-external
+      - run:
+          name: "Run Hugo"
+          command: HUGO_ENV=production hugo -v -s src/
+      - run:
+          name: "Test Website"
+          command: htmlproofer src/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
       - deploy:
           name: deploy
           command: |
