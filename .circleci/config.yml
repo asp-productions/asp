@@ -13,7 +13,7 @@ jobs:
           command: HUGO_ENV=production hugo -v -d $HUGO_BUILD_DIR
       - run:
           name: "Test Website"
-          command: htmlproofer src/public --allow-hash-href --check-html --empty-alt-ignore --disable-external
+          command: htmlproofer $HUGO_BUILD_DIR --allow-hash-href --check-html --empty-alt-ignore --disable-external
       - deploy:
           name: deploy
           command: |
