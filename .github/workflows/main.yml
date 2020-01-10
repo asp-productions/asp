@@ -9,9 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
     - uses: actions/checkout@v2
-    - name: Execute s3 Hugo Sync
     - uses: brown-a2/s3-hugo-sync-action@master
       with:
         args: --acl public-read --follow-symlinks --delete
@@ -22,4 +20,3 @@ jobs:
         AWS_REGION: 'us-east-1'
         SOURCE_DIR: '/public'
         EXCLUDE_FOLDER: 'uploads/*'
-        TEST: 'hello world'
