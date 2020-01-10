@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: brown-a2/s3-hugo-sync-action@master
+    - name: Check container
+      uses: docker://browna2/s3-hugo-aws-sync:latest
       with:
         args: --acl public-read --follow-symlinks --delete
       env:
