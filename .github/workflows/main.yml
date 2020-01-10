@@ -1,4 +1,4 @@
-name: ASP s3 sync
+name: ASP s3 Hugo asset sync
 
 on:
   push:
@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v2
     - uses: brown-a2/s3-hugo-sync-action@master
       with:
         args: --acl public-read --follow-symlinks --delete
