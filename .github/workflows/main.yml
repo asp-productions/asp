@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+    - uses: actions/checkout@v2
     - uses: ./
     - name: Execute s3 Hugo Sync
     - uses: brown-a2/s3-hugo-sync-action@master
