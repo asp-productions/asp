@@ -11,6 +11,7 @@ env.*
 /node_modules/*
 /public/*
 /aws
+src/node_modules/*
 
 # To prevent storing dev/temporary container data
 *.csv
