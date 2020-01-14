@@ -18,5 +18,5 @@ ENV AWSCLI_VERSION='1.16.265'
 RUN apk add --no-cache --upgrade bash
 COPY --from=hugo /app/public /public
 RUN pip install --quiet --no-cache-dir awscli==${AWSCLI_VERSION}
-ADD entrypoint.sh /entrypoint.sh
+ADD bin/entrypoint.sh /bin/entrypoint.sh
 ENTRYPOINT ["bin/entrypoint.sh"]
