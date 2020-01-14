@@ -10,7 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: brown-a2/s3-hugo-sync-action@master
+      runs:
+        using: 'docker'
+        image: 'Dockerfile'
       with:
         args: --acl public-read --follow-symlinks --delete
       env:
