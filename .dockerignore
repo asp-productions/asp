@@ -8,6 +8,9 @@ Dockerfile
 README.md
 env.*
 /devops/*
+/node_modules/*
+/public/*
+/aws
 
 # To prevent storing dev/temporary container data
 *.csv
